@@ -1,0 +1,7 @@
+staticSites:
+  - name: font-awesome
+    headers:
+      - path: /*
+        headers:
+          - name: Access-Control-Allow-Origin
+            value: "*"
